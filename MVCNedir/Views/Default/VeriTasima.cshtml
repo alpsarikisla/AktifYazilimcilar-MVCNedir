@@ -1,0 +1,35 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>VeriTasima</title>
+</head>
+<body>
+    Viewbag ile gelen veri = @ViewBag.isim<br />
+
+    ViewData ile gelen Veri = @ViewData["isim2"]<br />
+
+    TempData ile gelen Veri = @TempData["isim3"]<br />
+
+    @using (Html.BeginForm())
+    {
+        <div>
+            <label>İsim:</label>
+            <br />
+            <input type="text" name="isim" />
+            <br /><br />
+            <label>Soyisim:</label>
+            <br />
+            <input type="text" name="soyisim" />
+            <br /><br />
+            <input type="submit" value="Gönder" />
+        </div>
+    }
+</body>
+</html>

@@ -1,0 +1,36 @@
+﻿@model MVCNedir.Models.Category
+@{
+    ViewBag.Title = "Kategori Ekle";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2 class="page-title">Kategori Ekle</h2>
+<div class="form">
+    <div class="form-header">
+        <h3 class="form-title">Kategori Bilgileri</h3>
+    </div>
+    <div class="form-body">
+        @using (Html.BeginForm())
+        {
+            <div class="row">
+                @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "form-label" })
+                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-input" } })
+                <br />
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "form-red-message" })
+            </div>
+            <div class="row">
+                @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "form-label" })
+                @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-input" } })
+                <br />
+                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "form-red-message" })
+            </div>
+            <div class="row">
+                Aktif kategori @Html.EditorFor(model => model.IsActive)
+            </div>
+            <div class="row">
+                <button type="submit" class="form-button submit">Kategori Ekle</button>
+            </div>
+        }
+    </div>
+</div>
+

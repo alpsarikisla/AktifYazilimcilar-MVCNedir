@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MVC Nedir Admin Panel - @ViewBag.Title</title>
+    <link href="~/Assets/css/MainStyle.css" rel="stylesheet" />
+    <link href="~/Assets/fontawesome-6.5.1/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="headerBar">
+        <div class="brand">
+            <h3>MVC Nedir Admin Panel</h3>
+        </div>
+        <div class="topBar"></div>
+        <div style="clear:both"></div>
+    </div>
+    <div class="container">
+        <div class="sideBar">
+            <ul>
+                <li><a href="@Url.Action("Index","Anasayfa")"><i class="fa-solid fa-house"></i> Anasayfa</a></li>
+                <li><a href="@Url.Action("Ekle","Kategori")"><i class="fa-solid fa-list"></i> Kategori Ekle</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            @RenderBody()
+        </div>
+        <div style="clear:both"></div>
+        <!-- Yorum Satırı -->
+        @*Yorum Satırı*@
+    </div>
+</body>
+</html>

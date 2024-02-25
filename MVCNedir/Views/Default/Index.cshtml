@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        Viewbag ile gelen veri = @ViewBag.isim<br />
+
+        ViewData ile gelen Veri = @ViewData["isim2"]<br />
+
+        TempData ile gelen Veri = @TempData["isim3"]<br />
+
+        @* Razer Kullanımı *@
+        @* cshtml uzantılı dosyalarda html arasına c# kodu yazmamızı sağlayan yapı *@
+        @DateTime.Now.ToString()
+        <br />
+        @{
+            for (int i = 0; i < 15; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    <label style="color:red;">@i</label><br />
+                }
+                else
+                {
+                    <label>@i</label><br />
+                }
+            }
+        }
+    </div>
+</body>
+</html>

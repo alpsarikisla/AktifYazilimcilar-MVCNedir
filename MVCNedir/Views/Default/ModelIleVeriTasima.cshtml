@@ -1,0 +1,30 @@
+﻿@model MVCNedir.Models.Kisi
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ModelIleVeriTasima</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <label>Isim:</label><br />
+            <input type="text" name="Isim" />
+            <br /><br />
+            <label>Soyisim:</label><br />
+            <input type="text" name="Soyisim" />
+            <br /><br />
+            <label>TC No:</label><br />
+            <input type="text" name="TcNo" />
+            <br /><br />
+            <input type="submit" value="gönder"/>
+        }
+    </div>
+</body>
+</html>
