@@ -1,0 +1,85 @@
+﻿
+@model IEnumerable<MVCNedir.Models.Category>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+    List<MVCNedir.Models.Category> kategoriler = Model.ToList();
+}
+
+
+<h2 class="page-title">Kategori Listesi</h2>
+<div class="form">
+   
+    <div class="form-table">
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <th>ID</th>
+                <th>Isim</th>
+                <th>Açıklama</th>
+                <th>Durum</th>
+                <th>Seçenekler</th>
+            </tr>
+            @*@foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td>@item.IsActive</td>
+                <td>
+                    <a href="" class="tableButton edit">Düzenle</a>
+                    <a href="" class="tableButton delete">Sil</a>
+                </td>
+            </tr>
+        }*@
+            @for (int i = 0; i < kategoriler.Count(); i++)
+            {
+                if (i % 2 == 0)
+                {
+                    <tr>
+                        <td>@kategoriler[i].ID</td>
+                        <td>@kategoriler[i].Name</td>
+                        <td>@kategoriler[i].Description</td>
+                        <td>
+                            @if (kategoriler[i].IsActive)
+                            {
+                                <label>Aktif</label>
+                            }
+                            else
+                            {
+                                <label>Pasif</label>
+                            }
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Duzenle","Kategori", new {id = kategoriler[i].ID })" class="tableButton edit">Düzenle</a>
+                            <a href="@Url.Action("Sil","Kategori", new {id = kategoriler[i].ID })" class="tableButton delete">Sil</a>
+                        </td>
+                    </tr>
+                }
+                else
+                {
+                    <tr style="background-color:#fbfbfb">
+                        <td>@kategoriler[i].ID</td>
+                        <td>@kategoriler[i].Name</td>
+                        <td>@kategoriler[i].Description</td>
+                        <td>
+                            @if (kategoriler[i].IsActive)
+                            {
+                                <label>Aktif</label>
+                            }
+                            else
+                            {
+                                <label>Pasif</label>
+                            }
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Duzenle","Kategori", new {id = kategoriler[i].ID })" class="tableButton edit">Düzenle</a>
+                            <a href="@Url.Action("Sil","Kategori", new {id = kategoriler[i].ID })" class="tableButton delete">Sil</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+</div>
+

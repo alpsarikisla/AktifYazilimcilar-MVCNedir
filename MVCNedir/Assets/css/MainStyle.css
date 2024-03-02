@@ -67,15 +67,18 @@ body {
 .content {
     float: left;
     padding: 20px;
-    width:80%
+    width: 80%
 }
+
 .page-title {
     border-bottom: 1px solid silver;
     font-weight: 900;
 }
-.form{
-    margin-top:20px;
+
+.form {
+    margin-top: 20px;
 }
+
 .form-header {
     background-color: #fafafa;
     color: dimgray;
@@ -83,40 +86,93 @@ body {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border: 1px solid silver;
-    padding:10px;
+    padding: 10px;
 }
-.form-body{
-    border:1px solid silver;
+
+.form-body {
+    border: 1px solid silver;
 }
-.row{
-    padding:10px 20px;
-    color:dimgray;
+
+.row {
+    padding: 10px 20px;
+    color: dimgray;
 }
+
     .row .form-label {
-        display:block;
-        margin-bottom:5px;
+        display: block;
+        margin-bottom: 5px;
     }
-    .row .form-input{
-        padding:7px;
-        width:95%;
-        border:1px solid teal;
-        border-radius:4px;
+
+    .row .form-input {
+        padding: 7px;
+        width: 95%;
+        border: 1px solid teal;
+        border-radius: 4px;
     }
-    .row .form-button{
-        padding:10px 30px;
-        margin-top:15px;
-        border-radius:7px;
-        cursor:pointer;
+
+    .row .form-button {
+        padding: 10px 30px;
+        margin-top: 15px;
+        border-radius: 7px;
+        cursor: pointer;
     }
-.submit{
-    border:1px solid #026464;
-    background-color:teal;
-    color:white;
-    font-weight:900;
+
+.submit {
+    border: 1px solid #026464;
+    background-color: teal;
+    color: white;
+    font-weight: 900;
 }
+
     .submit:hover {
         background-color: #029d9d;
     }
-.form-red-message{
-    color:red;
+
+.form-red-message {
+    color: red;
 }
+
+.form-table {
+    border: 1px solid silver;
+}
+
+    .form-table table {
+        width: 100%;
+    }
+
+        .form-table table tr {
+        }
+
+            .form-table table tr th {
+                border-bottom: 2px solid silver;
+                text-align: left;
+                padding: 10px;
+                background-color: #eeeeee;
+            }
+
+            .form-table table tr td {
+                border-bottom: 1px solid silver;
+                padding: 10px;
+            }
+
+                .form-table table tr td .tableButton {
+                    padding:5px 7px;
+                    text-decoration:none;
+                    border-radius:3px;
+                    font-size:9pt;
+                }
+
+                .form-table table tr td .edit {
+                    background-color:teal;
+                    color:white;
+                }
+                .form-table table tr td .edit:hover {
+                    background-color: #026464;
+                }
+                .form-table table tr td .delete {
+                    background-color: #fb4444;
+                    color: white;
+                }
+                .form-table table tr td .delete:hover {
+                    background-color: #fa2828;
+                }

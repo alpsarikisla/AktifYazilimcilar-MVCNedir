@@ -1,12 +1,94 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\303\\Documents\\GitHub\\AktifYazilimcilar-MVCNedir\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1809A1BC-14C8-4856-8F09-559B273454EC}|MVCNedir\\MVCNedir.csproj|c:\\users\\303\\documents\\github\\aktifyazilimcilar-mvcnedir\\mvcnedir\\views\\kategori\\duzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1809A1BC-14C8-4856-8F09-559B273454EC}|MVCNedir\\MVCNedir.csproj|solutionrelative:mvcnedir\\views\\kategori\\duzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1809A1BC-14C8-4856-8F09-559B273454EC}|MVCNedir\\MVCNedir.csproj|c:\\users\\303\\documents\\github\\aktifyazilimcilar-mvcnedir\\mvcnedir\\controllers\\kategoricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1809A1BC-14C8-4856-8F09-559B273454EC}|MVCNedir\\MVCNedir.csproj|solutionrelative:mvcnedir\\controllers\\kategoricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1809A1BC-14C8-4856-8F09-559B273454EC}|MVCNedir\\MVCNedir.csproj|c:\\users\\303\\documents\\github\\aktifyazilimcilar-mvcnedir\\mvcnedir\\views\\kategori\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1809A1BC-14C8-4856-8F09-559B273454EC}|MVCNedir\\MVCNedir.csproj|solutionrelative:mvcnedir\\views\\kategori\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1809A1BC-14C8-4856-8F09-559B273454EC}|MVCNedir\\MVCNedir.csproj|c:\\users\\303\\documents\\github\\aktifyazilimcilar-mvcnedir\\mvcnedir\\assets\\css\\mainstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1809A1BC-14C8-4856-8F09-559B273454EC}|MVCNedir\\MVCNedir.csproj|solutionrelative:mvcnedir\\assets\\css\\mainstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 142,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\AktifYazilimcilar-MVCNedir\\MVCNedir\\Views\\Kategori\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCNedir\\Views\\Kategori\\Index.cshtml",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\AktifYazilimcilar-MVCNedir\\MVCNedir\\Views\\Kategori\\Index.cshtml",
+              "RelativeToolTip": "MVCNedir\\Views\\Kategori\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-02T11:40:46.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainStyle.css",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\AktifYazilimcilar-MVCNedir\\MVCNedir\\Assets\\css\\MainStyle.css",
+              "RelativeDocumentMoniker": "MVCNedir\\Assets\\css\\MainStyle.css",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\AktifYazilimcilar-MVCNedir\\MVCNedir\\Assets\\css\\MainStyle.css",
+              "RelativeToolTip": "MVCNedir\\Assets\\css\\MainStyle.css",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAKIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-02T10:24:54.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KategoriController.cs",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\AktifYazilimcilar-MVCNedir\\MVCNedir\\Controllers\\KategoriController.cs",
+              "RelativeDocumentMoniker": "MVCNedir\\Controllers\\KategoriController.cs",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\AktifYazilimcilar-MVCNedir\\MVCNedir\\Controllers\\KategoriController.cs",
+              "RelativeToolTip": "MVCNedir\\Controllers\\KategoriController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA5wBwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T10:08:46.289Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 142,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Duzenle.cshtml",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\AktifYazilimcilar-MVCNedir\\MVCNedir\\Views\\Kategori\\Duzenle.cshtml",
+              "RelativeDocumentMoniker": "MVCNedir\\Views\\Kategori\\Duzenle.cshtml",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\AktifYazilimcilar-MVCNedir\\MVCNedir\\Views\\Kategori\\Duzenle.cshtml",
+              "RelativeToolTip": "MVCNedir\\Views\\Kategori\\Duzenle.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-02T11:42:22.389Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
